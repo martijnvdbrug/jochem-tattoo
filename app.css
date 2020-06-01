@@ -1,0 +1,59 @@
+.hand-background {
+    background: url(images/background-hands.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.flat-background {
+    background: url(images/background-flat.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.flash-container {
+    padding: 60px;
+}
+
+.banner {
+    padding: 40px 0 40px 0;
+}
+
+.x-scroll {
+    white-space: nowrap;
+    overflow-x: scroll;
+    margin: 60px;
+}
+
+/* horizontal scrollable flash images*/
+.item {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 150px;
+    margin: 0 20px 0 30px;
+}
+
+/* Remove Chrome's blue outline after click */
+.item a {
+    outline: none;
+}
+
+/* Padding element for overflow */
+.padding-right {
+    display: inline-block;
+    width: 200px;
+    line-height: 150px;
+}
+
+/* Remove reveal card and borders */
+.reveal {
+    border: none;
+    background: none;
+    outline: none;
+}
+
