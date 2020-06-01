@@ -1,3 +1,7 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
 .hand-background {
     background: url(images/background-hands.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
