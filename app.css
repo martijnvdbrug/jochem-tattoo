@@ -11,7 +11,7 @@ body {
 }
 
 .flat-background {
-    background: url(images/background-flat.jpg) no-repeat center center fixed;
+    background: url(images/background-flat.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -63,7 +63,13 @@ body {
 }
 
 #modalDescription {
+    margin-top: 1rem;
     color: #ffffff;
     text-align: left;
+    font-size: 1rem;
+}
+
+.reveal-overlay {
+    background-color: rgba(10,10,10,.8);
 }
 
