@@ -20,6 +20,10 @@ body {
 
 .flash-container {
     padding: 60px;
+    height: 100vh;
+    width: 100vw;
+    white-space: nowrap;
+    margin-top: 60px;
 }
 
 .banner {
@@ -27,9 +31,6 @@ body {
 }
 
 .x-scroll {
-    white-space: nowrap;
-    overflow-x: scroll;
-    margin: 60px;
 }
 
 /* horizontal scrollable flash images*/
@@ -59,5 +60,10 @@ body {
     border: none;
     background: none;
     outline: none;
+}
+
+#modalDescription {
+    color: #ffffff;
+    text-align: left;
 }
 

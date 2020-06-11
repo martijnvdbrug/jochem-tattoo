@@ -8,42 +8,71 @@
     <link rel="stylesheet" href="app.css">
     <link rel="icon" href="favicon.png" type="image/png">
 </head>
-<body class="flat-background x-scroll">
-<div class="flash-container">
+<body class="flat-background">
+
+<div class="grid-x text-center grid-padding-x">
+    <div class="cell small-0 large-4"></div>
+    <div class="cell small-12 large-4">
+        <img class="banner" src="images/tattooism.png">
+    </div>
+    <div class="cell small-0 large-4"></div>
+</div>
+
+<div class="flash-container x-scroll">
+
     <div class="row">
         <div class="large-12">
-            <div class="item"><a data-open="img-modal" data-reveal-id="img-modal" data-stencil="images/enter.png">
-                <img src="images/cyber2_lijst.png"/></a></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
+            <div class="item"><a data-open="img-modal" data-reveal-id="img-modal"
+                                 data-description="De klassieker Mans Ruin: drank, gokken en vrouwen - de zaken waardoor de man in verval raakt. <br/> In deze serie niet de man, maar de aardbol centraal gesteld. Welke zaken zorgen ervoor dat onze aardbol in verval raakt?">
+                <img src="images/planets_ruin/0.Planetruin_titel.png"/></a></div>
+            <div class="item"><img src="images/planets_ruin/1.png"/></div>
+            <div class="item"><img src="images/planets_ruin/2.png"/></div>
+            <div class="item"><img src="images/planets_ruin/3.png"/></div>
+            <div class="item"><img src="images/planets_ruin/4.png"/></div>
+            <div class="item"><img src="images/planets_ruin/5.png"/></div>
+            <div class="item"><img src="images/planets_ruin/6.png"/></div>
+            <div class="item"><img src="images/planets_ruin/7.png"/></div>
+            <div class="item"><img src="images/planets_ruin/8.png"/></div>
+            <div class="item"><img src="images/planets_ruin/9.png"/></div>
+            <div class="item"><img src="images/planets_ruin/10.png"/></div>
             <div class="padding-right"></div>
         </div>
     </div>
 
     <div class="row">
         <div class="large-12">
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
-            <div class="item"><img src="images/cyber2_lijst.png"/></div>
+            <div class="item"><a data-open="img-modal" data-reveal-id="img-modal"
+                                 data-description="We kunnen ons geen wereld meer voorstellen zonder slimme apparaten. Telefoons die het verlengde van ons geheugen zijn geworden. Een Alexa of Siri die bij gebrek aan een ander mens in je bijzijn jouw vragen alsnog kan beantwoorden. Onze samenleving is gedigitaliseerd en  heeft duidelijk een invloed op veel aspecten in ons leven. Hoe gaan we hiermee om?">
+                <img src="images/cyber_world/Cyberworld_titel.png"/></a></div>
+            <div class="item"><img src="images/cyber_world/digitalsuffer.png"/></div>
+            <div class="item"><img src="images/cyber_world/electro.png"/></div>
+            <div class="item"><img src="images/cyber_world/furby.png"/></div>
+            <div class="item"><img src="images/cyber_world/gaurd.png"/></div>
+            <div class="item"><img src="images/cyber_world/lijstjawel.png"/></div>
+            <div class="item"><img src="images/cyber_world/omoe.png"/></div>
+            <div class="item"><img src="images/cyber_world/opoe.png"/></div>
+            <div class="item"><img src="images/cyber_world/romance.png"/></div>
+            <div class="item"><img src="images/cyber_world/toxic.png"/></div>
+            <div class="item"><img src="images/cyber_world/vissen.png"/></div>
+            <div class="padding-right"></div>
         </div>
     </div>
 
+
+</div>
+
+<div class="grid-x text-center grid-padding-x">
+    <div class="cell small-5 large-5"></div>
+    <div class="cell small-2 large-2">
+        <a href="https://www.instagram.com/yungjohantattoos" target="_blank">
+            <img class="banner" src="images/instagram.png">
+        </a>
+    </div>
+    <div class="cell small-5 large-5"></div>
 </div>
 
 <div class="small reveal text-center" id="img-modal" data-reveal>
-    <img id="stencilImg" src=""/> <br/>
+    <p id="modalDescription"></p>
     <img id="modalImg" src=""/>
     <button class="close-button" data-close aria-label="Close modal" type="button">
         <span aria-hidden="true">&times;</span>
